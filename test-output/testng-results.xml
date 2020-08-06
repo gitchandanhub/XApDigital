@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-07T01:26:52 IST" name="Default suite" finished-at="2020-08-07T01:27:44 IST" duration-ms="52133">
+    <groups>
+    </groups>
+    <test started-at="2020-08-07T01:26:52 IST" name="Default test" finished-at="2020-08-07T01:27:44 IST" duration-ms="52133">
+      <class name="Execution.ExecuteTest">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:Execution.ExecuteTest@5c5eefef]" started-at="2020-08-07T01:26:52 IST" name="Initialize" finished-at="2020-08-07T01:27:05 IST" duration-ms="12674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="verifyContactus()[pri:0, instance:Execution.ExecuteTest@5c5eefef]" started-at="2020-08-07T01:27:05 IST" name="verifyContactus" finished-at="2020-08-07T01:27:44 IST" duration-ms="39421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Execution.ExecuteTest@5c5eefef]" started-at="2020-08-07T01:27:44 IST" name="close" finished-at="2020-08-07T01:27:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Execution.ExecuteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

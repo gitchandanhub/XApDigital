@@ -1,0 +1,12 @@
+00:58:51,621  INFO devpinoyLogger:31 - Contact Us page opened
+00:59:00,978  INFO devpinoyLogger:36 - First Name Entered
+00:59:02,159  INFO devpinoyLogger:44 - Last Name Entered
+00:59:03,415  INFO devpinoyLogger:52 - Emails has been Entered
+00:59:04,602  INFO devpinoyLogger:60 - Company name has been Entered
+00:59:05,775  INFO devpinoyLogger:76 - phonenumber has been Entered
+00:59:15,833  INFO devpinoyLogger:116 - Country is selected
+00:59:16,117  INFO devpinoyLogger:68 - Subject has been Entered
+00:59:19,495  INFO devpinoyLogger:132 - Inquiry is selected
+00:59:19,787  INFO devpinoyLogger:84 - msg has been Entered
+00:59:21,856  INFO devpinoyLogger:100 - Check box clicked
+00:59:21,945  INFO devpinoyLogger:139 - Send button is clicked
