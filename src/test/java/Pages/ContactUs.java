@@ -13,7 +13,8 @@ public class ContactUs extends AppDriver
 {
       public ContactUs()
       {
-    	  PageFactory.initElements(driver, this);
+    	  PageFactory.initElements(driver, ContactUs.class);
+    	 // PageFactory.initElements(driver, this);
       }
       
       @FindBy(xpath = "//input[@name='your-name']")  WebElement Firstname;
@@ -36,6 +37,8 @@ public class ContactUs extends AppDriver
     	  log.info("First Name Entered");
     	  System.out.println("First Name Entered");
     	  Thread.sleep(1000);
+    	  
+    	  
       }
       public void EnterLname(String lname) throws InterruptedException
       {

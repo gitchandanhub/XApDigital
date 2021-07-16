@@ -8,10 +8,12 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -68,6 +70,7 @@ public class AppDriver
 	          driver.manage().window().maximize();
 	          driver.manage().timeouts().implicitlyWait(wait.Implicitwait, TimeUnit.SECONDS);
 	          driver.navigate().to(config.getProperty("Url"));
+	         
 	      }
 	      
 	      @AfterTest
